@@ -87,3 +87,28 @@ public class Main {
         System.out.println("😶 😏 😒 🙄 😬");
     }
 }
+
+
+# lr1_2_2
+public class Main{
+    public static void main(String[] args) {
+
+        String text = "jaVA iS aWEsome LanGUaGe!";
+
+        // Виведення початкового рядка
+        System.out.println("Початковий рядок:");
+        System.out.println(text);
+
+        //  Перетворення рядка
+        if (text.length() > 0) {
+            String firstChar = text.substring(0, 1).toUpperCase();  // перша літера велика
+            String rest = text.substring(1).toLowerCase();           // всі інші літери маленькі
+            String result = firstChar + rest;
+
+            System.out.println("\nПеретворений рядок:");
+            System.out.println(result);
+        } else {
+            System.out.println("Рядок порожній!");
+        }
+    }
+}
