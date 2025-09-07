@@ -62,9 +62,28 @@ public class Main {
         // Значення дійсних чисел передаються у радіанах
         double y = Math.sin(d1) * Math.cos(d2) - Math.atan(d1) / Math.atan(d2);
 
+
+        
+
         System.out.println("\nРезультат обчислення виразу y:");
         System.out.println("y = " + y);
 
 
+    }
+}
+
+
+
+
+# lr1_2_1
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("😀 😁 😂 😃 😄");
+        System.out.println("😅 😆 😇 😉 😊");
+        System.out.println("😋 😎 😍 😘 😗");
+        System.out.println("😙 😚 😜 😝 😛");
+        System.out.println("🤑 🤗 🤩 🤔 🤭");
+        System.out.println("🤫 🤐 🤨 😐 😑");
+        System.out.println("😶 😏 😒 🙄 😬");
     }
 }
